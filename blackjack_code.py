@@ -31,7 +31,6 @@ def compute(player_list, dealer_list):
             return "its a draw"
 
 def blackjack():
-    # Bug 5 fixed: lists defined inside function — reset every game
     player_list = []
     dealer_list = []
     print(art.logo)
